@@ -8,28 +8,40 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.42
 distribution_type: module
-generated_by: 'Module::Install version 0.95'
+generated_by: 'Module::Install version 1.02'
+keywords:
+  - GRDDL
+  - JSON
+  - JsonT
+  - RDF
+  - 'Semantic Web'
+  - jsonGRDDL
+  - transform
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
+module_name: JSON::GRDDL
 name: JSON-GRDDL
 no_index:
   directory:
+    - examples
     - inc
     - t
+    - xt
 requires:
   Carp: 1.00
   JSON: 0
   JSON::T: 0
   LWP::UserAgent: 0
+  Object::AUTHORITY: 0
   RDF::Trine: 0.112
   Scalar::Util: 0
   common::sense: 0
-  perl: 5.8.0
+  perl: 5.10.0
 resources:
   bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=JSON-GRDDL
-  homepage: http://search.cpan.org/dist/JSON-GRDDL/
+  homepage: https://metacpan.org/release/JSON-GRDDL
   license: http://dev.perl.org/licenses/
-  repository: http://goddamn.co.uk/viewvc/perlmods/JSON-GRDDL/
-version: 0.001_00
+  repository: http://goddamn.co.uk/svn-web/perlmods/browse/JSON-GRDDL/
+version: 0.001

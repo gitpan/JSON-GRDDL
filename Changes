@@ -1,14 +1,20 @@
-############################################################################
-## Changes #################################################################
-############################################################################
-
 JSON-GRDDL
 ==========
 
 Created:      2010-07-30
-Home page:    <http://search.cpan.org/dist/JSON-GRDDL/>
+Home page:    <https://metacpan.org/release/JSON-GRDDL>
 Bug tracker:  <http://rt.cpan.org/Dist/Display.html?Queue=JSON-GRDDL>
 Maintainer:   Toby Inkster <mailto:tobyink@cpan.org>
 
-0.001_00 [2010-08-01]
+0.001  2011-12-06
+# Stable release
+
+ - Add a randomised aspect to blank node labels.
+ - (Update) use Object::AUTHORITY
+ - (Update) use 5.010
+ - (Packaging) Module::Package::RDF
+ - (Packaging) Improve test suite.
+
+0.001_00  2010-08-01
+
 
