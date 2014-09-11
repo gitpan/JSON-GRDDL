@@ -1,7 +1,8 @@
-package JSON::GRDDL;
-
 use 5.010;
-use common::sense;
+use strict;
+use warnings;
+
+package JSON::GRDDL;
 
 use Carp;
 use JSON;
@@ -13,7 +14,7 @@ use Scalar::Util qw[blessed];
 
 BEGIN {
 	$JSON::GRDDL::AUTHORITY = 'cpan:TOBYINK';
-	$JSON::GRDDL::VERSION   = '0.001';
+	$JSON::GRDDL::VERSION   = '0.002';
 }
 
 sub new
